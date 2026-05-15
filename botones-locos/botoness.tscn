@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://c7qpmvnnoc7pu"]
+
+[ext_resource type="Script" uid="uid://b1y8fbev4nabd" path="res://scroll_container.gd" id="1_i3up7"]
+[ext_resource type="Script" uid="uid://dppspqlvttgbg" path="res://control.gd" id="2_8cntf"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+visible = false
+offset_right = 529.0
+offset_bottom = 357.0
+script = ExtResource("1_i3up7")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1113.0
+offset_bottom = 641.0
+script = ExtResource("2_8cntf")
